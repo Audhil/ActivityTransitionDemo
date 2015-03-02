@@ -1,0 +1,18 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/ripple"
+        android:contentDescription="@string/app_name"
+        android:onClick="secondActivityClicked"
+        android:src="@drawable/f_up"
+        android:transitionName="@string/transName" />
+    <!-- android:background="@android:color/white" -->
+
+</RelativeLayout>
